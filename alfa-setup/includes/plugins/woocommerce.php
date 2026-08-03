@@ -24,7 +24,7 @@ function alfa_configure_woocommerce() {
     // ------------------------
 
     // Store location
-    update_option('woocommerce_default_country', 'BG:22');
+    update_option('woocommerce_default_country', 'BG:BG-22');
 
     // Currency
     update_option('woocommerce_currency', 'EUR');
