@@ -68,5 +68,50 @@ function alfa_configure_delete_defaults() {
     if ($post) {
         wp_delete_post($post->ID, true);
     }
-    echo '<div class="notice notice-success is-dismissible"><p>Default Posts & Pages Deleted!</p></div>';
+    alfa_remove_default_plugins();
+    echo '<div class="notice notice-success is-dismissible"><p>Defaults Deleted!</p></div>';
+}
+//Delete Default plugins 
+function alfa_remove_default_plugins() {
+
+    require_once ABSPATH . 'wp-admin/includes/plugin.php';
+    require_once ABSPATH . 'wp-admin/includes/file.php';
+
+    $plugins = get_plugins();
+
+    $plugins_to_delete = [
+        'AI Agent by SiteGround',
+        'Security Optimizer',
+        'Hello Dolly',
+        'Akismet Anti-spam: Spam Protection',
+    ];
+
+    foreach ($plugins as $plugin_file => $plugin_data) {
+
+        if (in_array($plugin_data['Name'], $plugins_to_delete, true)) {
+
+            if (is_plugin_active($plugin_file)) {
+                deactivate_plugins($plugin_file);
+            }
+
+            delete_plugins([$plugin_file]);
+        }
+    }
+
+    // Speed Optimizer - deactivate only
+    foreach ($plugins as $plugin_file => $plugin_data) {
+
+        if ($plugin_data['Name'] === 'Speed Optimizer') {
+
+            if (is_plugin_active($plugin_file)) {
+                deactivate_plugins($plugin_file);
+            }
+
+            break;
+        }
+    }
+
+    echo '<div class="notice notice-success is-dismissible">
+            <p>Default plugins processed.</p>
+          </div>';
 }

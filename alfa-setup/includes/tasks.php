@@ -41,6 +41,11 @@ function alfa_get_tasks() {
             'callback' => 'alfa_install_child_theme',
             'default' => true,
         ],
+        'delete_default_themes' => [
+            'label' => 'Delete Twenty Twenty Themes',
+            'callback' => 'alfa_delete_default_themes',
+            'default' => true,
+        ],
         'gdpr' => [
             'label' => 'Install & Configure GDPR plugin',
             'callback' => 'alfa_install_gdpr',
@@ -61,6 +66,7 @@ function alfa_setup_run() {
         'title' => sanitize_text_field($_POST['site_title'] ?? ''),
         'link' => esc_url_raw($_POST['domain'] ?? ''),
         'theme_folder' => sanitize_title($_POST['theme_folder'] ?? ''),
+        'shop_theme'   => !empty($_POST['shop_theme']),
 
     ];
     // Execute selected tasks

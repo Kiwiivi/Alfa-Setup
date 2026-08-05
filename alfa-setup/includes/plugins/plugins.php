@@ -11,6 +11,8 @@ function alfa_install_standard_plugins() {
 
         'wps-hide-login/wps-hide-login.php' => 'wps-hide-login',
 
+        'wordfence/wordfence.php' => 'wordfence',
+
     ];
 
     foreach ($plugins as $file => $slug) {
@@ -21,7 +23,7 @@ function alfa_install_standard_plugins() {
 
     alfa_configure_standard_plugins();
 
-    echo '<div class="notice notice-success is-dismissible"><p>Plugins Installed!</p></div>';
+    echo '<div class="notice notice-success is-dismissible"><p>Plugins Installed /WPS Hide Login, Wordfence, Cyr-To-Lat, Classic Widgets, Loco Translate!</p></div>';
 }
 //Helper function for alfa_install_standard_plugins
 function alfa_install_plugin($slug, $plugin_file) {

@@ -98,9 +98,18 @@ function alfa_import_divi_settings() {
 function alfa_install_child_theme($config) {
 
 
+    // Choose which child theme to install
+    $zip_file = $config['shop_theme']
+        ? ALFA_SETUP_PATH . 'setup/Child-Alfa-shop.zip'
+        : ALFA_SETUP_PATH . 'setup/Child-Alfa-standard.zip';
+    
+    $template_folder = $config['shop_theme']
+        ? 'Child-Alfa-shop'
+        : 'Child-Alfa-standard';
+    
     $theme_path = alfa_install_child_theme_zip(
-        ALFA_SETUP_PATH . 'setup/Child-Alfa-template.zip',
-        'Child-Alfa-template',
+        $zip_file,
+        $template_folder,
         $config['theme_folder']
     );
 
@@ -200,4 +209,21 @@ function alfa_replace_theme_placeholders($theme_path, $config) {
             $config
         );
     }
+}
+function alfa_delete_default_themes() {
+
+    require_once ABSPATH . 'wp-admin/includes/theme.php';
+
+    $themes = wp_get_themes();
+
+    foreach ($themes as $stylesheet => $theme) {
+
+        if (strpos($stylesheet, 'twentytwenty') === 0) {
+            delete_theme($stylesheet);
+        }
+    }
+
+    echo '<div class="notice notice-success is-dismissible">
+            <p>Default themes removed.</p>
+          </div>';
 }

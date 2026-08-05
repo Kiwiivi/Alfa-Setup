@@ -29,6 +29,12 @@ function alfa_setup_page() {
     ?>
     <div class="alfa-header">
         <h1>AlfaBest Setup</h1>
+        <p>After these steps don't forget to: 
+            * Update Divi Layout & Remove search icon
+            * Actiavte Wordfence
+            * Configure Cyr-To-Lat
+            * In case of Woocommerce, update Product catalog settings
+        </p>
     </div>
     <form method="post">
         <?php wp_nonce_field('alfa_setup_run'); ?>
@@ -66,6 +72,10 @@ function alfa_setup_page() {
                         class="regular-text"
                         placeholder="alfabest">
                 </p>
+                <label>
+                    <input type="checkbox" name="shop_theme" value="1">
+                    Use Shop Child Theme
+                </label><br>
                     <input
                         type="submit"
                         name="alfa_setup_run"
@@ -75,6 +85,11 @@ function alfa_setup_page() {
             </div>
             <div class="alfa-tasks-wrap">
                 <h2>Tasks</h2>
+                <p>
+                    <a href="#" id="alfa-check-all">Check all</a> |
+                    <a href="#" id="alfa-uncheck-all">Uncheck all</a>
+                </p>
+                
                 <label>
                     <input type="checkbox" name="tasks[]" value="wordpress" checked>
                     Configure WordPress
@@ -87,7 +102,7 @@ function alfa_setup_page() {
 
                 <label>
                     <input type="checkbox" name="tasks[]" value="defaults" checked>
-                    Delete Default Content
+                    Delete Defaults
                 </label><br>
 
                 <label>
@@ -102,15 +117,18 @@ function alfa_setup_page() {
 
                 <label>
                     <input type="checkbox" name="tasks[]" value="parent_theme">
-                    Install & Configure Parent Theme
+                    Install Parent Theme
                 </label><br>
 
                 <label>
                     <input type="checkbox" name="tasks[]" value="child_theme">
-                    Install & Configure Child Theme
+                    Install Child Theme
                 </label><br>
-
                 <label>
+                    <input type="checkbox" name="tasks[]" value="delete_default_themes">
+                    Delete Twenty Twenty Themes
+                </label><br>
+               <!--<label>
                     <input type="checkbox" name="tasks[]" value="gdpr">
                     Install & Configure GDPR
                 </label><br>
@@ -118,10 +136,35 @@ function alfa_setup_page() {
                 <label>
                     <input type="checkbox" name="tasks[]" value="seo">
                     Install & Configure SEO
-                </label>
+                </label>-->
             </div>
         </div>
     </form>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    
+        const taskCheckboxes = document.querySelectorAll(
+        '.alfa-tasks-wrap input[type="checkbox"]'
+        );
+    
+        document.getElementById('alfa-check-all').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        taskCheckboxes.forEach(function (checkbox) {
+            checkbox.checked = true;
+        });
+        });
+    
+        document.getElementById('alfa-uncheck-all').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        taskCheckboxes.forEach(function (checkbox) {
+            checkbox.checked = false;
+        });
+        });
+    
+    });
+    </script>
     <?php
 
 }
