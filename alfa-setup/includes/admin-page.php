@@ -29,11 +29,11 @@ function alfa_setup_page() {
     ?>
     <div class="alfa-header">
         <h1>AlfaBest Setup</h1>
-        <p>After these steps don't forget to: 
-            * Update Divi Layout & Remove search icon
-            * Actiavte Wordfence
-            * Configure Cyr-To-Lat
-            * In case of Woocommerce, update Product catalog settings
+        <p>After these steps don't forget to: <br>
+            * Update Divi Layout & Remove search icon<br>
+            * Actiavte Wordfence<br>
+            * Configure Cyr-To-Lat<br>
+            * In case of Woocommerce, update Product catalog settings<br>
         </p>
     </div>
     <form method="post">
