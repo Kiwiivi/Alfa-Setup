@@ -36,4 +36,4 @@ require_once ALFA_SETUP_PATH . 'includes/wordpress.php';
 require_once ALFA_SETUP_PATH . 'includes/themes.php';
 require_once ALFA_SETUP_PATH . 'includes/plugins/plugins.php';
 require_once ALFA_SETUP_PATH . 'includes/plugins/woocommerce.php';
-
+require_once ALFA_SETUP_PATH . 'includes/plugins/gdpr.php';
