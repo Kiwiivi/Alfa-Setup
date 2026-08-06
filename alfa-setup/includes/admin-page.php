@@ -137,7 +137,7 @@ function alfa_setup_page() {
                     Install & Configure GDPR
                 </label><br>
                 <label>
-                    <input type="checkbox" name="tasks[]" value="alfa_install_seo">
+                    <input type="checkbox" name="tasks[]" value="seo">
                     Install & Configure Yoast(Not done yet)
                 </label><br>
             </div>
