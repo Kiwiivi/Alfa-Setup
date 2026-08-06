@@ -8,7 +8,7 @@ function alfa_install_seo() {
     alfa_configure_seo();   
 
     echo '<div class="notice notice-success is-dismissible">
-            <p>YoastSEO installed.</p>
+            <p>YoastSEO installed & configured.</p>
         </div>';
 }
 

@@ -88,9 +88,6 @@ function alfa_configure_gdpr() {
 
     fclose( $handle );
 
-    echo '<div class="notice notice-success is-dismissible">
-            <p>GDPR configured.</p>
-          </div>';
 }
 function alfa_initialize_gdpr_database() {
 

@@ -138,7 +138,17 @@ function alfa_setup_page() {
                 </label><br>
                 <label>
                     <input type="checkbox" name="tasks[]" value="seo">
-                    Install & Configure Yoast(Not done yet)
+                    Install & Configure Yoast
+                </label><br>
+                <label>
+                    <input type="checkbox" name="tasks[]" value="lscache">
+                    Install & Configure LiteSpeed Cache (Comming soon)
+                </label><br>
+                    <input type="checkbox" name="tasks[]" value="mail">
+                    Install SMTP + WP Mail Logging (Comming soon)
+                </label><br>
+                    <input type="checkbox" name="tasks[]" value="wp_child">
+                    Install WP Child (Comming soon)
                 </label><br>
             </div>
             <div class="instructions">
