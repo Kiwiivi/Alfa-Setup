@@ -31,134 +31,125 @@ function alfa_setup_page() {
         }
     ?>
     <div class="alfa-header">
+        <hr>
         <h1>AlfaBest Setup</h1>
+        <hr style="box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.75);">
     </div>
     <form method="post">
         <?php wp_nonce_field('alfa_setup_run'); ?>
 
         <div class="alfa-wrap">
-            <hr>
-            <h2>Installation helper</h2>
-            <hr>
-            <div class="alfa-installation">
-                <div class="alfa-input-wrap">
-                    <h3>Site Information</h3>
+            <div class="alfa-input-wrap">
+                <h3>Site Information</h3>
 
-                    <p>
-                        <label for="site_title"><strong>Website Title</strong></label><br>
-                        <input
-                            type="text"
-                            id="site_title"
-                            name="site_title"
-                            class="regular-text">
-                    </p>
+                <p>
+                    <label for="site_title"><strong>Website Title</strong></label><br>
+                    <input
+                        type="text"
+                        id="site_title"
+                        name="site_title"
+                        class="regular-text">
+                </p>
 
-                    <p>
-                        <label for="domain"><strong>Website Link</strong></label><br>
-                        <input
-                            type="text"
-                            id="domain"
-                            name="domain"
-                            class="regular-text">
-                    </p>
-                    <p>
-                        <label for="theme_folder">
-                            <strong>Child Theme Folder Name</strong>
-                        </label><br>
-
-                        <input
-                            type="text"
-                            id="theme_folder"
-                            name="theme_folder"
-                            class="regular-text"
-                            placeholder="alfabest">
-                    </p>
-                    <label>
-                        <input type="checkbox" name="shop_theme" value="1">
-                        Use Shop Child Theme
-                    </label><br>
-                        <input style="margin-top: 10px;"
-                            type="submit"
-                            name="alfa_setup_run"
-                            class="button button-primary"
-                            value="Run Setup">
-
-                </div>
-                <div class="alfa-tasks-wrap">
-                    <h2>Tasks</h2>
-                    <p>
-                        <a href="#" id="alfa-check-all">Check all</a> |
-                        <a href="#" id="alfa-uncheck-all">Uncheck all</a>
-                    </p>
-
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="wordpress" checked>
-                        Configure WordPress
+                <p>
+                    <label for="domain"><strong>Website Link</strong></label><br>
+                    <input
+                        type="text"
+                        id="domain"
+                        name="domain"
+                        class="regular-text">
+                </p>
+                <p>
+                    <label for="theme_folder">
+                        <strong>Child Theme Folder Name</strong>
                     </label><br>
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="homepage" checked>
-                        Configure Homepage
-                    </label><br>
+                    <input
+                        type="text"
+                        id="theme_folder"
+                        name="theme_folder"
+                        class="regular-text"
+                        placeholder="alfabest">
+                </p>
+                <label>
+                    <input type="checkbox" name="shop_theme" value="1">
+                    Use Shop Child Theme
+                </label><br>
+                    <input style="margin-top: 10px;"
+                        type="submit"
+                        name="alfa_setup_run"
+                        class="button button-primary"
+                        value="Run Setup">
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="defaults" checked>
-                        Delete Defaults
-                    </label><br>
+            </div>
+            <div class="alfa-tasks-wrap">
+                <h2>Tasks</h2>
+                <p>
+                    <a href="#" id="alfa-check-all">Check all</a> |
+                    <a href="#" id="alfa-uncheck-all">Uncheck all</a>
+                </p>
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="plugins" checked>
-                        Install Standard Plugins
-                    </label><br>
+                <label>
+                    <input type="checkbox" name="tasks[]" value="wordpress" checked>
+                    Configure WordPress
+                </label><br>
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="woocommerce">
-                        Install WooCommerce
-                    </label><br>
+                <label>
+                    <input type="checkbox" name="tasks[]" value="homepage" checked>
+                    Configure Homepage
+                </label><br>
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="parent_theme">
-                        Install Parent Theme
-                    </label><br>
+                <label>
+                    <input type="checkbox" name="tasks[]" value="defaults" checked>
+                    Delete Defaults
+                </label><br>
 
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="child_theme">
-                        Install Child Theme
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="tasks[]" value="delete_default_themes">
-                        Delete Twenty Twenty Themes
-                    </label><br>
-                </div>
-                <div class="instructions">
-                    <p><b>After the tasks don't forget to:</b> <br>
-                    * Update Divi Layout & Remove search icon<br>
-                    * Configure Wordfence<br>
-                    * Configure Cyr-To-Lat<br>
-                    * In case of Woocommerce, update Product catalog settings<br>
-                    </p>
-                </div>
-            </div> 
-            <hr style="margin-top: 20px;"> 
-            <h3>Migration Helper</h3>
-            <hr>
-            <div class="alfa-migration">
+                <label>
+                    <input type="checkbox" name="tasks[]" value="plugins" checked>
+                    Install Standard Plugins
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="tasks[]" value="woocommerce">
+                    Install WooCommerce
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="tasks[]" value="parent_theme">
+                    Install Parent Theme
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="tasks[]" value="child_theme">
+                    Install Child Theme
+                </label><br>
+                <label>
+                    <input type="checkbox" name="tasks[]" value="delete_default_themes">
+                    Delete Twenty Twenty Themes
+                </label><br>
+                <hr>
+                <p><b>Additional Options</b></p>
+                <hr>
                 <label>
                     <input type="checkbox" name="tasks[]" value="gdpr">
                     Install & Configure GDPR
                 </label><br>
-
-                <!--<label>
-                    <input type="checkbox" name="tasks[]" value="seo">
-                    Install & Configure SEO
-                </label>-->
-                <input
-                style="margin-top:10px;"
-                type="submit"
-                name="alfa_migration_run"
-                class="button button-primary"
-                value="Run Migration">
-            </div>  
+                <label>
+                    <input type="checkbox" name="tasks[]" value="alfa_install_seo">
+                    Install & Configure Yoast(Not done yet)
+                </label><br>
+            </div>
+            <div class="instructions">
+                <h3>After the tasks don't forget to: </h3>
+                <ul style="list-style: disc;">
+                    <li>Update Divi Layout & Remove search icon</li>
+                    <li>Configure Wordfence</li>
+                    <li>Configure Cyr-To-Lat</li>
+                    <li>In case of Woocommerce, update Product catalog settings</li>
+                </ul>
+            </div>
         </div>
     </form>
     <script>
