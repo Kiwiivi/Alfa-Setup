@@ -92,22 +92,22 @@ function alfa_setup_page() {
                 </p>
 
                 <label>
-                    <input type="checkbox" name="tasks[]" value="wordpress" checked>
+                    <input type="checkbox" name="tasks[]" value="wordpress">
                     Configure WordPress
                 </label><br>
 
                 <label>
-                    <input type="checkbox" name="tasks[]" value="homepage" checked>
+                    <input type="checkbox" name="tasks[]" value="homepage">
                     Configure Homepage
                 </label><br>
 
                 <label>
-                    <input type="checkbox" name="tasks[]" value="defaults" checked>
+                    <input type="checkbox" name="tasks[]" value="defaults">
                     Delete Defaults
                 </label><br>
 
                 <label>
-                    <input type="checkbox" name="tasks[]" value="plugins" checked>
+                    <input type="checkbox" name="tasks[]" value="plugins">
                     Install Standard Plugins
                 </label><br>
 
