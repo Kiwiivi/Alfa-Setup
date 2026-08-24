@@ -54,12 +54,17 @@ function alfa_configure_gdpr() {
         return;
     }
 
-    $file = ALFA_SETUP_PATH . 'setup/gdpr-settings.csv';
-
+    if ( function_exists( 'pll_languages_list' ) ) {
+        // Polylang is active → use multilang configuration
+        $file = ALFA_SETUP_PATH . 'setup/gdpr-settings-multilang.csv';
+    } else {
+        // No Polylang → use normal configuration
+        $file = ALFA_SETUP_PATH . 'setup/gdpr-settings.csv';
+    }
+    
     if ( ! file_exists( $file ) ) {
         return;
     }
-
     if ( ( $handle = fopen( $file, 'r' ) ) === false ) {
         return;
     }

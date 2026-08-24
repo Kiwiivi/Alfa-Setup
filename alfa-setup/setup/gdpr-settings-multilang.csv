@@ -1,0 +1,141 @@
+"id","option_key","option_value","site_id","extras"
+"72","moove_gdpr_brand_colour","#0c4da2","1","NULL"
+"73","moove_gdpr_button_style","rounded","1","NULL"
+"74","moove_gdpr_plugin_font_type","2","1","NULL"
+"75","moove_gdpr_plugin_font_family","'Nunito', sans-serif","1","NULL"
+"76","moove_gdpr_infobar_visibility","visible","1","NULL"
+"77","moove_gdpr_accept_button_enable","1","1","NULL"
+"78","moove_gdpr_reject_button_enable","1","1","NULL"
+"79","gdpr_reject_button_bhv","1","1","NULL"
+"80","gdpr_reject_button_bhv_bg_colour","#000000","1","NULL"
+"81","gdpr_reject_button_bhv_txt_colour","#d6d6d6","1","NULL"
+"82","moove_gdpr_settings_button_enable","1","1","NULL"
+"83","gdpr_settings_button_bhv","2","1","NULL"
+"84","gdpr_settings_button_bhv_bg_colour",,"1","NULL"
+"85","gdpr_settings_button_bhv_txt_colour",,"1","NULL"
+"86","moove_gdpr_close_button_enable","0","1","NULL"
+"87","gdpr_close_button_bhv","1","1","NULL"
+"88","moove_gdpr_colour_scheme","1","1","NULL"
+"89","gdpr_accesibility","0","1","NULL"
+"90","gdpr_cb_show_mobile","1","1","NULL"
+"91","moove_gdpr_info_bar_content","<p>Ние използваме „бисквитки“, за да Ви осигурим по-добро съдържание и потребителско преживяване. Вашите предпочитания можете да отбележите {setting}тук{/setting}.</p>
+<p>Запознайте се с нашата <a href=""/politika-za-biskvitki/"" target=""“_blank“"">Политика за бисквитки</a>.</p>
+","1","NULL"
+"92","gdpr_bs_buttons_order","[""accept"",""settings"",""reject"",""close""]","1","NULL"
+"93","moove_gdpr_infobar_accept_button_label","Приемам всички","1","NULL"
+"94","moove_gdpr_infobar_settings_button_label","Настройки","1","NULL"
+"95","moove_gdpr_infobar_reject_button_label","Отказвам всички","1","NULL"
+"96","moove_gdpr_infobar_position","bottom","1","NULL"
+"97","gdpr_initialization_delay","0","1","NULL"
+"98","moove_gdpr_modal_powered_by_disable","0","1","NULL"
+"99","moove_gdpr_plugin_layout","v1","1","NULL"
+"100","gdpr_gs_buttons_order","{""1"":""enable"",""2"":""save"",""3"":""reject"",""4"":""close""}","1","NULL"
+"101","moove_gdpr_enable_all_button_enable","1","1","NULL"
+"102","moove_gdpr_modal_allow_button_label","Приемам всички","1","NULL"
+"103","moove_gdpr_modal_save_button_label","Запази промените","1","NULL"
+"104","moove_gdpr_reject_all_button_enable","1","1","NULL"
+"105","moove_gdpr_modal_reject_button_label","Отказвам всички","1","NULL"
+"106","gdpr_reject_button_bhv_ss","1","1","NULL"
+"107","gdpr_reject_button_bhv_ss_bg_colour","#000000","1","NULL"
+"108","gdpr_reject_button_bhv_ss_txt_colour","#d6d6d6","1","NULL"
+"109","moove_gdpr_modal_enabled_checkbox_label","Включено","1","NULL"
+"110","moove_gdpr_modal_disabled_checkbox_label","Изключено","1","NULL"
+"111","moove_gdpr_modal_powered_by_label","Съгласно","1","NULL"
+"112","moove_gdpr_save_settings_button_enable","1","1","NULL"
+"113","moove_gdpr_cb_close_button_enable","0","1","NULL"
+"114","moove_gdpr_floating_button_enable","1","1","NULL"
+"115","moove_gdpr_floating_mobile","0","1","NULL"
+"116","moove_gdpr_floating_button_label","Настройки бисквитки","1","NULL"
+"117","moove_gdpr_privacy_overview_tab_title","Какво представляват бисквитките","1","NULL"
+"118","moove_gdpr_privacy_overview_tab_content","Бисквитките са малки текстови файлове, които се запазват на Вашия компютър или мобилно устройство, когато посещавате нашия уебсайт. Отделните секции по-долу ще Ви дадат повече информация за различните категории бисквитки, които нашият уеб сайт използва, както и възможност за промяна на настройките в тази връзка. Моля да имате предвид, че ограничаването и спирането на бисквитките, може да доведе до спиране на функционалности, некоректна работа и ограничаване на потребителското Ви преживяване с нашия уебсайт.
+","1","NULL"
+"119","moove_gdpr_cookie_policy_enable","1","1","NULL"
+"120","moove_gdpr_cookie_policy_tab_nav_label","Политика за бисквитките","1","NULL"
+"121","moove_gdpr_cookies_policy_tab_content","<p>Запознайте се с нашата <a href=""/politika-za-biskvitki/"" target=""“_blank“"" rel=""“noopener“"">политика за бисквитки</a>.</p>
+","1","NULL"
+"122","moove_gdpr_strictly_necessary_cookies_functionality","2","1","NULL"
+"123","moove_gdpr_strictly_ccat_enable","1","1","NULL"
+"124","moove_gdpr_strictly_necessary_cookies_tab_title","Строго необходими бисквитки и бисквитки за сигурност","1","NULL"
+"125","moove_gdpr_strict_necessary_cookies_tab_content","Тези бисквитки са необходими за функционирането на уебсайта ни и не могат да бъдат изключени от Вас.
+Използваме бисквитки от гледна точка на сигурност, чиято цел е да предотвратяват измамническо използване на идентификационни данни за вход, както и за защита информацията от неупълномощени страни.
+","1","NULL"
+"126","moove_gdpr_strictly_header_scripts",,"1","NULL"
+"127","moove_gdpr_strictly_body_scripts",,"1","NULL"
+"128","moove_gdpr_strictly_footer_scripts",,"1","NULL"
+"129","moove_gdpr_third_party_cookies_enable_first_visit","0","1","NULL"
+"130","moove_gdpr_third_party_cookies_enable","1","1","NULL"
+"131","moove_gdpr_performance_cookies_tab_title","Функционални и анализиращи бисквитки","1","NULL"
+"132","moove_gdpr_performance_cookies_tab_content","Използваме бисквитки, които позволяват на уебсайта да запаметява Вашите действия и предпочитания за определен период от време, за да не се налага да ги въвеждате всеки път, когато посещавате сайта или преминавате от една страница към друга.
+Използваме Анализиращи бисквитки, които ни помагат да подобрим работа и ефективността на интернет страницата си.
+","1","NULL"
+"133","moove_gdpr_third_party_header_scripts",,"1","NULL"
+"134","moove_gdpr_third_party_body_scripts",,"1","NULL"
+"135","moove_gdpr_third_party_footer_scripts",,"1","NULL"
+"136","moove_gdpr_advanced_cookies_enable_first_visit","0","1","NULL"
+"137","moove_gdpr_advanced_cookies_enable","1","1","NULL"
+"138","moove_gdpr_advanced_cookies_tab_title","Рекламни и бисквитки на трети страни","1","NULL"
+"139","moove_gdpr_advanced_cookies_tab_content","Използваме бисквитки, които на база Вашето поведение в нашия уебсайт може да Ви показват реклами, които предполагаме, че отговарят на Вашите предпочитания и интереси.
+
+
+Използваме бисквитки на трети страни, които позволяват харесване или споделяне на съдържание в социалните мрежи, бисквитки от Google Analytics, които помагат за проследяване трафика на уебсайта и други бисквитки свързани с външни системи и сайтове, интегрирани към уеб сайта. Тези бисквитки могат да бъдат използвани от тези трети страни.
+","1","NULL"
+"140","moove_gdpr_advanced_cookies_header_scripts",,"1","NULL"
+"141","moove_gdpr_advanced_cookies_body_scripts",,"1","NULL"
+"142","moove_gdpr_advanced_cookies_footer_scripts",,"1","NULL"
+"145","moove_gdpr_modal_allow_button_label_bg","Приемам всички","1",NULL
+"146","moove_gdpr_modal_save_button_label_bg","Запази промените","1",NULL
+"147","moove_gdpr_modal_reject_button_label_bg","Отказвам всички","1",NULL
+"148","moove_gdpr_modal_enabled_checkbox_label_bg","Включено","1",NULL
+"149","moove_gdpr_modal_disabled_checkbox_label_bg","Изключено","1",NULL
+"150","moove_gdpr_modal_powered_by_label_bg","Съгласно","1",NULL
+"151","moove_gdpr_modal_allow_button_label_en","Enable All","1",NULL
+"152","moove_gdpr_modal_save_button_label_en","Save Changes","1",NULL
+"153","moove_gdpr_modal_reject_button_label_en","Reject All","1",NULL
+"154","moove_gdpr_modal_enabled_checkbox_label_en","Enabled","1",NULL
+"155","moove_gdpr_modal_disabled_checkbox_label_en","Disabled","1",NULL
+"156","moove_gdpr_modal_powered_by_label_en","Powered by","1",NULL
+"157","moove_gdpr_info_bar_content_en","<p>We use cookies to provide you with a better content and user experience. You can set your preferences {setting}here{/setting}.</p>
+<p>Please read our <a href=""/cookie-policy/"" target=""“_blank“"">Cookie Policy</a>.</p>
+","1",NULL
+"158","moove_gdpr_infobar_accept_button_label_en","Accept","1",NULL
+"159","moove_gdpr_infobar_settings_button_label_en","Settings","1",NULL
+"160","moove_gdpr_infobar_reject_button_label_en","Reject","1",NULL
+"161","moove_gdpr_privacy_overview_tab_title_en","What are cookies?","1",NULL
+"162","moove_gdpr_privacy_overview_tab_content_en","Cookies are small text files that are saved on your computer or mobile device when you visit our website. The separate sections below will give you more information about the different categories of cookies that our website uses, as well as the ability to change the settings in this regard. Please note that restricting and disabling cookies may result in functionality being disabled, incorrect operation and limiting your user experience with our website.","1",NULL
+"163","moove_gdpr_cookie_policy_tab_nav_label_en","Cookie Policy","1",NULL
+"164","moove_gdpr_cookies_policy_tab_content_en","<p>Get to know our <a href=""/cookie-policy/"" target=""“_blank“"" rel=""“noopener“"">cookie policy</a>.</p>","1",NULL
+"165","moove_gdpr_strictly_necessary_cookies_tab_title_en","Strictly necessary cookies and security cookies","1",NULL
+"166","moove_gdpr_strict_necessary_cookies_tab_content_en","These cookies are necessary for the functioning of our website and cannot be switched off by you.
+
+We use cookies for security purposes, which aim to prevent fraudulent use of login credentials, as well as to protect information from unauthorized parties.","1",NULL
+"167","moove_gdpr_performance_cookies_tab_title_en","Functional and analytical cookies","1",NULL
+"168","moove_gdpr_performance_cookies_tab_content_en","We use cookies that allow the website to remember your actions and preferences for a certain period of time so that you do not have to enter them every time you visit the site or move from one page to another.
+
+We use Analytical Cookies that help us improve the performance and effectiveness of our website.","1",NULL
+"169","moove_gdpr_advanced_cookies_tab_title_en","Advertising and third-party cookies","1",NULL
+"170","moove_gdpr_advanced_cookies_tab_content_en","We use cookies that, based on your behavior on our website, may show you advertisements that we assume match your preferences and interests.
+
+We use third-party cookies that allow you to like or share content on social networks, Google Analytics cookies that help track website traffic, and other cookies related to external systems and sites integrated into the website. These cookies may be used by these third parties.","1",NULL
+"171","moove_gdpr_info_bar_content_bg","<p>Ние използваме „бисквитки“, за да Ви осигурим по-добро съдържание и потребителско преживяване. Вашите предпочитания можете да отбележите {setting}тук{/setting}.</p>
+<p>Запознайте се с нашата <a href=""/politika-za-biskvitki/"" target=""“_blank“"">Политика за бисквитки</a>.</p>
+","1",NULL
+"172","moove_gdpr_infobar_accept_button_label_bg","Приемам всички","1",NULL
+"173","moove_gdpr_infobar_settings_button_label_bg","Настройки","1",NULL
+"174","moove_gdpr_infobar_reject_button_label_bg","Отказвам всички","1",NULL
+"175","moove_gdpr_floating_button_label_bg","Настройки бисквитки","1",NULL
+"176","moove_gdpr_privacy_overview_tab_title_bg","Какво представляват бисквитките","1",NULL
+"177","moove_gdpr_privacy_overview_tab_content_bg","Бисквитките са малки текстови файлове, които се запазват на Вашия компютър или мобилно устройство, когато посещавате нашия уебсайт. Отделните секции по-долу ще Ви дадат повече информация за различните категории бисквитки, които нашият уеб сайт използва, както и възможност за промяна на настройките в тази връзка. Моля да имате предвид, че ограничаването и спирането на бисквитките, може да доведе до спиране на функционалности, некоректна работа и ограничаване на потребителското Ви преживяване с нашия уебсайт.
+","1",NULL
+"178","moove_gdpr_cookie_policy_tab_nav_label_bg","Политика за бисквитките","1",NULL
+"179","moove_gdpr_cookies_policy_tab_content_bg","<p>Запознайте се с нашата <a href=""/politika-za-biskvitki/"" target=""“_blank“"" rel=""“noopener“"">политика за бисквитки</a>.</p>","1",NULL
+"180","moove_gdpr_strictly_necessary_cookies_tab_title_bg","Строго необходими бисквитки и бисквитки за сигурност","1",NULL
+"181","moove_gdpr_strict_necessary_cookies_tab_content_bg","Тези бисквитки са необходими за функционирането на уебсайта ни и не могат да бъдат изключени от Вас.
+Използваме бисквитки от гледна точка на сигурност, чиято цел е да предотвратяват измамническо използване на идентификационни данни за вход, както и за защита информацията от неупълномощени страни.","1",NULL
+"182","moove_gdpr_performance_cookies_tab_title_bg","Функционални и анализиращи бисквитки","1",NULL
+"183","moove_gdpr_performance_cookies_tab_content_bg","Използваме бисквитки, които позволяват на уебсайта да запаметява Вашите действия и предпочитания за определен период от време, за да не се налага да ги въвеждате всеки път, когато посещавате сайта или преминавате от една страница към друга.
+Използваме Анализиращи бисквитки, които ни помагат да подобрим работа и ефективността на интернет страницата си.","1",NULL
+"184","moove_gdpr_advanced_cookies_tab_title_bg","Рекламни и бисквитки на трети страни","1",NULL
+"185","moove_gdpr_advanced_cookies_tab_content_bg","Използваме бисквитки, които на база Вашето поведение в нашия уебсайт може да Ви показват реклами, които предполагаме, че отговарят на Вашите предпочитания и интереси.
+
+
+Използваме бисквитки на трети страни, които позволяват харесване или споделяне на съдържание в социалните мрежи, бисквитки от Google Analytics, които помагат за проследяване трафика на уебсайта и други бисквитки свързани с външни системи и сайтове, интегрирани към уеб сайта. Тези бисквитки могат да бъдат използвани от тези трети страни.","1",NULL
