@@ -65,6 +65,11 @@ function alfa_get_tasks() {
             'label' => 'Install SMTP + WP Mail Logging',
             'callback' => 'alfa_install_mail_plugins',
             'default' => true,
+        ],
+        'wp_child' => [
+            'label' => 'Install WP Child',
+            'callback' => 'alfa_install_mainwp_child',
+            'default' => true,
         ]
     ];
 }

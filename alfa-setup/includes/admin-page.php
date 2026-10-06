@@ -145,10 +145,10 @@ function alfa_setup_page() {
                     Install & Configure LiteSpeed Cache 
                 </label><br>
                     <input type="checkbox" name="tasks[]" value="mail">
-                    Install SMTP + WP Mail Logging (Comming soon)
+                    Install SMTP + WP Mail Logging
                 </label><br>
                     <input type="checkbox" name="tasks[]" value="wp_child">
-                    Install WP Child (Comming soon)
+                    Install WP Child 
                 </label><br>
             </div>
             <div class="instructions">

@@ -405,3 +405,17 @@ function alfa_install_mail_plugins() {
             <p>WP Mail SMTP and WP Mail Logging installed and activated.</p>
           </div>';
 }
+
+
+//Install MainWP Child
+function alfa_install_mainwp_child() {
+
+    alfa_install_plugin(
+        'mainwp-child',
+        'mainwp-child/mainwp-child.php'
+    );
+
+    echo '<div class="notice notice-success is-dismissible">
+            <p>MainWP Child installed and activated.</p>
+          </div>';
+}
