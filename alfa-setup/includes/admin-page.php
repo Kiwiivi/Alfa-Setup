@@ -71,7 +71,7 @@ function alfa_setup_page() {
                         id="theme_folder"
                         name="theme_folder"
                         class="regular-text"
-                        placeholder="alfabest">
+                        placeholder="Child-Alfa">
                 </p>
                 <label>
                     <input type="checkbox" name="shop_theme" value="1">
@@ -142,7 +142,7 @@ function alfa_setup_page() {
                 </label><br>
                 <label>
                     <input type="checkbox" name="tasks[]" value="lscache">
-                    Install & Configure LiteSpeed Cache (Comming soon)
+                    Install & Configure LiteSpeed Cache 
                 </label><br>
                     <input type="checkbox" name="tasks[]" value="mail">
                     Install SMTP + WP Mail Logging (Comming soon)

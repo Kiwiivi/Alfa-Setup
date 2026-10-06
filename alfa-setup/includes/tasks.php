@@ -55,6 +55,16 @@ function alfa_get_tasks() {
             'label' => 'Install & Configure SEO plugin',
             'callback' => 'alfa_install_seo',
             'default' => true,
+        ],
+        'lscache' => [
+            'label' => 'Install & Configure LiteSpeed Cache plugin',
+            'callback' => 'alfa_install_litespeed',
+            'default' => true,
+        ],
+        'mail' => [
+            'label' => 'Install SMTP + WP Mail Logging',
+            'callback' => 'alfa_install_mail_plugins',
+            'default' => true,
         ]
     ];
 }
