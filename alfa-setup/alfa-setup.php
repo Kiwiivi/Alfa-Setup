@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Alfa Setup
  * Description: Automates the initial setup of a WordPress website.
- * Version: 0.1.0
+ * Version: 1.1.0
  * Author: AlfaBest 
  */
 
