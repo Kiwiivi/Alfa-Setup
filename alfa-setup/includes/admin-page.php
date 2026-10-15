@@ -154,10 +154,8 @@ function alfa_setup_page() {
             <div class="instructions">
                 <h3>After the tasks don't forget to: </h3>
                 <ul style="list-style: disc;">
-                    <li>Update Divi Layout & Remove search icon</li>
                     <li>Configure Wordfence</li>
                     <li>Configure Cyr-To-Lat</li>
-                    <li>In case of Woocommerce, update Product catalog settings</li>
                 </ul>
             </div>
         </div>

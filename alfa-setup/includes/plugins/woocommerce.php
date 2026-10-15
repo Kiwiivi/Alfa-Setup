@@ -7,7 +7,7 @@ function alfa_install_woocommerce() {
     );
 
     alfa_configure_woocommerce();
-
+    alfa_configure_woocommerce_catalog();
     echo '<div class="notice notice-success is-dismissible">
             <p>WooCommerce installed.</p>
           </div>';
@@ -49,4 +49,25 @@ function alfa_configure_woocommerce() {
     echo '<div class="notice notice-success is-dismissible">
             <p>WooCommerce configured.</p>
           </div>';
+}
+function alfa_configure_woocommerce_catalog() {
+
+    // Проверяваме дали WooCommerce е активен.
+    if ( ! class_exists( 'WooCommerce' ) ) {
+        return false;
+    }
+
+    // Shop page display → Show Subcategories
+    update_option(
+        'woocommerce_shop_page_display',
+        'subcategories'
+    );
+
+    // Category display → Show Subcategories
+    update_option(
+        'woocommerce_category_archive_display',
+        'subcategories'
+    );
+
+    return true;
 }
