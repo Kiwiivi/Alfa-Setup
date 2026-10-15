@@ -90,6 +90,33 @@ function alfa_import_divi_settings() {
         'et_divi',
         array_merge($current, $settings['data'])
     );
+    alfa_configure_divi_customizer();
+    return true;
+}
+function alfa_configure_divi_customizer() {
+
+    // Проверяваме дали Divi е родителската тема.
+    if ( get_template() !== 'Divi' ) {
+        return false;
+    }
+
+    // Взимаме съществуващите настройки на Divi.
+    $options = get_option( 'et_divi', [] );
+
+    if ( ! is_array( $options ) ) {
+        return false;
+    }
+
+    // General Settings → Layout Settings
+    // Website Content Width: 1200px
+    $options['content_width'] = 1200;
+
+    // Header & Navigation → Header Elements
+    // Show Search Icon: OFF
+    $options['show_search_icon'] = false;
+
+    // Запазваме настройките, без да изтриваме останалите.
+    update_option( 'et_divi', $options );
 
     return true;
 }
