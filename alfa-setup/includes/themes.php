@@ -28,6 +28,7 @@ function alfa_install_parent_theme() {
     }
 
     switch_theme('Divi');
+    alfa_configure_divi_customizer();
 
     echo '<div class="notice notice-success">
             <p>Divi installed and configured.</p>
@@ -90,7 +91,6 @@ function alfa_import_divi_settings() {
         'et_divi',
         array_merge($current, $settings['data'])
     );
-    alfa_configure_divi_customizer();
     return true;
 }
 function alfa_configure_divi_customizer() {
